@@ -1,0 +1,4 @@
+FROM ubuntu
+MAINTAINER  deekshi
+RUN apt-get update
+CMD ["echo","hello-world"]
